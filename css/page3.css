@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.container{
+    width: 1170px;
+    margin:auto;
+}
+.clearfix{clear: both;}
+ /*start header*/
+.header button a {text-decoration: none; color: white;}
+.header button a:hover {color:#cc232f;}
+.header button a:active{color: #dd4852;}
+
+.header{background-color: #1e1f1e;overflow: hidden;color: #fff;}
+.header h2{float: left; margin-bottom: 5px;margin-top: 13px;}
+.color {color: #cc232f; }
+.header h2:first-letter{font-size: 35px}
+.header ul {overflow: hidden; list-style: none; float: right; margin-right: 40px;}
+.header ul li {float: left;padding: 10px;}
+.header ul li a {color: #fff;text-decoration: none;}
+.header ul li a:hover {color:#cc232f;}
+.header ul li a:active{color: #dd4852;}
+.header button {float: right; margin-right:5px; width: 100px; margin-top: 18px;padding: 5px 10px;background-color:rgba(51, 48, 48, 0) ;color: #fff; border: 3px solid #cc232f }
+ /*end header*/
+
+.center{text-align: center; margin: 0;padding-top: 50px;font-size: 60px;font-weight: bold;}
+
+
+.global1 {padding-top: 30px;padding-bottom: 50px; overflow: hidden;}
+.global1 .img{
+    padding-top: 70px;
+   float: left; 
+    width: 40%;
+} 
+.global1 .img img {width: 100%;}
+.global1 .info1 {
+    float: left; 
+    width: 60%;
+}
+.global1 .info1 h2 {margin: 20px 0 20px 40px;}
+.global1 .info1 > p {margin: 0 0 10px 40px;}
+.global1 .info1 .p {margin-top:25px;}
+.global1 .info1  p { line-height: 1.6; color: #777;}
+
+.global1 .info1 .food { margin: 15px 0 0 40px; overflow: hidden;}
+.global1 .info1 .food .content{
+  min-height: 100px;  float: left; width:50%; overflow: hidden;}
+.global1 .info1 .food .content .icon {float: left;width: 10%; margin-right: 5%;}
+.global1 .info1 .food .content .icon img {max-width: 100%; margin: 20px 10px 0 0;}
+.global1 .info1 .food .content .text {float: left;width: 85%;}
+.global1 .info1 .food .content .text p {margin-top: 0px;}
+.global1 .info1 .food .content .text h3 {margin-bottom: 5px;}
+
+
+.ex {padding-top: 10px;padding-bottom: 50px; overflow: hidden;}
+.ex .img { padding-top: 150px; width:40% ; float: left;}
+.ex .img img {width: 100%;}
+.ex .train  {overflow: auto; widows: 60%;float: left;}
+.ex .train h2 {margin: 20px 0 20px 40px;}
+.ex .train h3 {margin: 20px 0 20px 40px;}
+.ex .train .p {margin-top:25px;}
+.ex .train  p {margin: 0 0 10px 40px; line-height: 1.6; color: #777;}
+
+blockquote { padding-left: 200px; width: 600px;height: 200px;color: #777}
+
+
+.sleep .img {  padding-top:0px; width:40% ; float: left;}
+.sleep .img img {width: 100%;}
+.sleep .teps  {overflow: auto; widows: 60%;float: left;}
+.sleep .teps h2 {margin: 20px 0 20px 40px;}
+.sleep .teps ul {margin-top:25px;}
+.sleep .teps ol li {margin: 0 0 10px 40px; line-height: 1.6; color: #777;line-height: 1.7;}
+
+
+.footer{background-color: #1e1f1e;overflow: hidden;color: #fff;}
+.footer .copy p a {text-decoration: none; padding-left: 300px; color: white; }
+.footer .copy p a:hover{color:  #cc232f;}
+.footer .social ul {list-style: none; }
+.footer .social ul li  {float: right; display: inline;}
+.footer .social ul li img {widows: 30px; height: 30px; padding: 10px;}
+

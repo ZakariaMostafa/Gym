@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1170px;
+    margin:auto;
+}
+.color{color:#543318 ;}
+.clearfix{clear: both;}
+ /*start header*/
+.free {margin: 0; padding:40px 0 0 50px;}
+.free h1{color:#543318;}
+.free h4{font-weight: bold;color:#724826;}
+
+
+
+.header{background-color: #d89471;overflow: hidden;color: #fff;}
+.header h2{float: left; margin-bottom: 5px;margin-top: 13px;}
+.header h2:first-letter{font-size: 35px}
+.header ul {overflow: hidden; list-style: none; float: right; margin-right: 40px;}
+.header ul li {float: left;padding: 10px;}
+.header ul li a {color: #fff;text-decoration: none;}
+.header ul li a:hover {color:#543318;}
+.header ul li a:active{color: #c57f49;}
+ /*end header*/
+
+ /*start sign up*/
+ .pad{margin: 0 0 20px 50px; }
+ .zo{padding: 5px; border: 1px solid #543318; background-color: #f7cf9493;}
+ .sign {height: 1000px;background-size: cover; background-image: url("../image/r0_312_6000_3687_w1200_h678_fmax.jpg");}
+.sign input{display: block;}
+.sign form label{color:#af9055; }
+.sign form input[type="text"]  { width: 133px; margin-top: 30px ;}
+.sign form input[type="password"],.sign form input[type="email"] {width: 280px;}
+.sign .sgl .signup, .sign .sgl .reset  {font-weight: bold; color:white; width: 100px; padding: 5px; border:2px solid #543318 ;background-color:#d8986d;}

@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1170px;
+    margin:auto;
+}
+.clearfix{clear: both;}
+ /*start header*/
+.header button a {text-decoration: none; color: white;}
+.header button a:hover {color:#008ccc;}
+.header button a:active{color: aqua;}
+
+.header{background-color: #33489e;overflow: hidden;color: #fff;}
+.header h2{float: left; margin-bottom: 5px;margin-top: 13px;}
+.color {color: #008ccc; }
+.header h2:first-letter{font-size: 35px}
+.header ul {overflow: hidden; list-style: none; float: right; margin-right: 40px;}
+.header ul li {float: left;padding: 10px;}
+.header ul li a {color: #fff;text-decoration: none;}
+.header ul li a:hover {color:#008ccc;}
+.header ul li a:active{color: aqua;}
+.header button {float: right; margin-right:5px; width: 100px; margin-top: 18px;padding: 5px 10px;background-color:rgba(51, 48, 48, 0) ;color: #fff; border: 3px solid #008ccc }
+ /*end header*/
+
+ .head {height: 1000px; background-image: url("../image/group-exercising.png");
+    background-size: cover; }
+.slider .why{ padding: 50px 0 0 0 ;}
+.slider .why h1{font-size: 40px; margin: 0;color:#5e676d ;}
+.slider .why h3 {font-size: 30px; font-weight: bold;color:#5e676d;margin-bottom:6px; margin-top: 6px; }
+.slider .why ul {list-style: none;}
+.slider .why ul li {line-height: 1.5; font-size: 20px;font-weight: 500; font-style: italic; color: #5e676d; margin-top: 3px;}
+
+
+
+.slider .join {float :right;width: 303px;height: 137px;padding: 200px 0 0 0;}
+.slider .join h1{ font-size: 30px; font-weight:bold;color: #5e676d; margin: 0px;}
+.slider .join p { font-size:20px ; font-style: italic ; color: #5e676d; margin-top: 5px; margin-bottom:0 ;}
+.slider button { margin: 40px 0 0 60px; padding: 5px; background-color:rgba(255, 0, 0, 0);font-size: 20px; font-weight: 500; border:3px dashed  #5e676d}
+
+ .copy {font-size: 13px;color: #fff;padding: 615px 180px 0 0;} 
